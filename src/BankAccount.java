@@ -68,11 +68,14 @@ public class BankAccount {
     public AccountType getAccountType(){
         return acctType;
     }
-    public String getAccountID(){
+    public String getAccountID() {
         return acctID;
     }
     public double getMinBalance(){
         return minBalance;
+    }
+    public double getBalance(){
+        return balance;
     }
 
     // Instance methods
